@@ -5,12 +5,14 @@ function Tab({id, name, email, role}){
   return (
     <div>
       <table>
+        <tbody>
           <tr>
             <td className='id'>{id}</td>
             <td className='name'>{name}</td>
             <td className='email'>{email}</td>
             <td className='role'>{role}</td>
             </tr>  
+        </tbody>
       </table>
     </div>
   )
@@ -33,7 +35,6 @@ export default function App() {
           }
           let data = await response.json();
           setCount(data);
-          setLoading(false);
         }
         catch(error){
           setError(error.message);
@@ -63,10 +64,10 @@ export default function App() {
     }
   }
   if(loading){
-    return <div>Loading...</div>
+    return <div className='loading'>Loading...</div>
   }
   if(error){
-    return <div>Error: {error.message}</div>
+    return <div className='error'>Error: {error.message}</div>
   }
 
   return (

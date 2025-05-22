@@ -49,3 +49,6 @@ button{
   border-radius: 3px;
   border: 3px solid grey;
 }
+.loading.error{
+  font-size: larger;
+}
