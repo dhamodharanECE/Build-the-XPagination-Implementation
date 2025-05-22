@@ -1,0 +1,51 @@
+*{
+  font-family:sans-serif;
+  text-align: center;
+
+}
+h1{
+  font-weight: bold;
+}
+table{
+  width: 70%;
+  border-collapse: collapse;
+  border: 1px solid gray;
+  padding: 10px;
+  line-height: 50px;
+  margin-left: 15%;
+} 
+td{
+  padding-left: 20px 10px;
+  text-align: left;
+ 
+}
+.id{
+  padding-left: 28px;
+  width: 10%;
+}
+.name{
+  width: 30%;
+}
+.email{
+  width: 40%;
+}
+.role{
+  width: 50%;
+}
+.header{
+  font-family: sans-serif;
+  font-weight: bold;
+  background-color:MediumSeaGreen;
+  color: aliceblue;
+  text-transform: capitalize;
+}
+button{
+  background-color: mediumseagreen;
+  color: azure;
+  width: 7%;
+  padding: 10px;
+  font-size: large;
+  margin: 2%;
+  border-radius: 3px;
+  border: 3px solid grey;
+}
