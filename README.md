@@ -1,6 +1,6 @@
 # 📄 React Employee Pagination App
 
-#🧾 Overview
+# 🧾 Overview
 
 The Employee Pagination App is a ReactJS application that displays employee data fetched from a remote API in a paginated table format.
 
@@ -9,10 +9,15 @@ It allows users to navigate through the data seamlessly using Previous and Next 
 # ✨ Features
 
 ✅ Fetches employee data from a public API
+
 ✅ Displays records in a table (10 rows per page)
+
 ✅ Pagination using Previous and Next buttons
+
 ✅ Disables navigation when on the first or last page
+
 ✅ Error handling for failed API requests
+
 ✅ Clean UI built using only HTML, CSS, and React
 
 # 🌐 API Endpoint
@@ -142,4 +147,3 @@ Creating a fully functional UI without external libraries
 # Development Link:
 ```base
 https://github.com/dhamodharanECE/Build-the-XPagination-Implementation.git
-
